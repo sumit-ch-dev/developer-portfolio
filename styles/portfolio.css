@@ -1,0 +1,54 @@
+:root {
+    --White-01: #ffffff;
+    --Dark-01: #181818;
+    --Primary-01: #FD6E0A;
+    --Dark-02: #474747;
+    --Dark-03: #757575;
+    /* --Secondary-01: #6c757d;
+    --Success-01: #28a745;
+    --Danger-01: #dc3545;
+    --Warning-01: #ffc107;
+    --Info-01: #17a2b8; */
+}
+
+.text-primary {
+    color: var(--Primary-01);
+}
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+nav {
+    display: flex;
+}
+
+nav > ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--Dark-01);
+}
+
+.btn-primary {
+    background-color: var(--Primary-01);
+    color: var(--White-01);
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+
+.nav-title {
+    color: var(--Dark-01);
+    font-size: 45px;
+    font-weight: 800;
+}
