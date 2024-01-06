@@ -104,6 +104,10 @@ nav a {
 }
 
 /* main section styles */
+main{
+  max-width: 1140px;
+  margin: 0 auto;
+}
 
 /* about section styles */
 
@@ -127,4 +131,37 @@ nav a {
   font-size: 18px;
   font-weight: 400;
 
+}
+
+.about-info-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.info-title {
+  color: var(--Dark-03);
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.info-description {
+  color: var(--Dark-02);
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.about-info {
+  text-align: center;
+}
+
+#what-i-do-description {
+  padding: 30px 150px;
+}
+
+.skill-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 150px;
 }
