@@ -192,5 +192,34 @@ main section {
 
 .resume-container {
   display: flex;
-  justify-content: space-between;
+  gap: 50px;
+}
+
+.resume-item-title {
+  color: var(--Dark-02);
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.resume-item-subheading {
+  color: var(--Dark-03);
+  font-size:20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.resume-item-description {
+  color: var(--Dark-03);
+  font-size: 16px;
+  font-weight: 400;
+} 
+
+.resume-container hr {
+  margin: 30px;
+}
+
+.download-cv {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
 }
