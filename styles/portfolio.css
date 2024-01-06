@@ -1,11 +1,11 @@
 :root {
-    --White-01: #ffffff;
-    --White-02: #FFF8F3;
-    --Dark-01: #181818;
-    --Primary-01: #FD6E0A;
-    --Dark-02: #474747;
-    --Dark-03: #757575;
-    /* --Secondary-01: #6c757d;
+  --White-01: #ffffff;
+  --White-02: #fff8f3;
+  --Dark-01: #181818;
+  --Primary-01: #fd6e0a;
+  --Dark-02: #474747;
+  --Dark-03: #757575;
+  /* --Secondary-01: #6c757d;
     --Success-01: #28a745;
     --Danger-01: #dc3545;
     --Warning-01: #ffc107;
@@ -13,68 +13,118 @@
 }
 
 .text-primary {
-    color: var(--Primary-01);
+  color: var(--Primary-01);
 }
 body {
-    font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 /* nav related styles */
 
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 150px;
 }
 
 nav > ul {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 nav li {
-    list-style: none;
-    margin-right: 50px;
+  list-style: none;
+  margin-right: 50px;
 }
 
 nav a {
-    text-decoration: none;
-    color: var(--Dark-01);
+  text-decoration: none;
+  color: var(--Dark-01);
 }
 
 .btn-primary {
-    background-color: var(--Primary-01);
-    color: var(--White-01);
-    border: none;
-    border-radius: 5px;
-    font-size: 20px;
-    font-weight: 700;
-    padding: 18px 35px;
+  background-color: var(--Primary-01);
+  color: var(--White-01);
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 18px 35px;
 }
-
-
 
 .nav-title {
-    color: var(--Dark-01);  
-    font-size: 45px;
-    font-weight: 800;
+  color: var(--Dark-01);
+  font-size: 45px;
+  font-weight: 800;
 }
-
 
 /* header related styles */
 
 .header {
-    background: var(--White-02)
+  background: var(--White-02);
+  background-image: url("/images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 
 .banner {
-    padding: 30px 30px 30px 150px; 
-    display: flex;
-    align-items: center;
+  padding: 30px 30px 0 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.banner-content {
+  max-width: 500px;
 }
 
 .banner .profile-pic {
-    width: 500px;
+  width: 500px;
+}
+.banner .banner-title {
+  color: var(--Dark-01);
+  font-size: 85px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.banner .banner-greeting {
+  color: var(--Dark-02);
+  font-size: 45px;
+  font-weight: 600;
+  /* margin-bottom: 0; */
+}
+
+.banner .banner-text {
+  color: var(--Dark-03);
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+/* main section styles */
+
+/* about section styles */
+
+.about {
+  margin: 130px 0;
+  padding: 130px 150px;
+  border-radius: 10px;
+  background: var(--White-02);
+}
+
+.section-title {
+  color: var(--Dark-01);
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+ 
+.section-description {
+  color: var(--Dark-03);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
 
 }
